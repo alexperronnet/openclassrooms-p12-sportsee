@@ -8,11 +8,74 @@
     <!-- Favicon -->
     <link rel="icon" href="devchallenges.png" />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500;700&family=Space+Mono:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
     <!-- Document title -->
     <title>404 Not Found Challenge | devChallenges.io</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+      <!-- Container -->
+      <div class="container">
+        <!-- Header -->
+        <header class="header">
+          <h1 class="header__logo">404 Not Found</h1>
+        </header>
+
+        <!-- Main -->
+        <main class="main">
+          <!-- Section not found -->
+          <section class="not-found">
+            <!-- Image -->
+            <div class="not-found-img-wrapper">
+              <img
+                src="./assets/scarecrow.png"
+                alt="Scarecrow"
+                class="not-found__img"
+              />
+            </div>
+
+            <!-- Content -->
+            <div class="not-found__content">
+              <!-- Title -->
+              <h2 class="not-found__title">I have bad news for you</h2>
+
+              <!-- Text -->
+              <p class="not-found__text">
+                The page you are looking for might be removed or is temporarily
+                unavailable
+              </p>
+
+              <!-- Button -->
+              <a href="#" class="not-found__btn">Back to homepage</a>
+            </div>
+          </section>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+          <p class="footer__copyright">
+            Created by
+            <a
+              href="https://github.com/alexperronnet"
+              target="_blank"
+              rel="noreferrer noopener"
+              class="footer__copyright-link"
+              >alexperronnet</a
+            >
+            - devChallenges.io
+          </p>
+        </footer>
+      </div>
+    </div>
+
+    <!-- Scripts -->
     <script type="module" src="/main.js"></script>
   </body>
 </html>
