@@ -15,7 +15,7 @@ Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
 ## Overview
 
-![screenshot](./assets/screenshot.png)
+![screenshot](./assets/screenshot.webp)
 
 ### Built With
 
