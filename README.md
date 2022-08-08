@@ -3,7 +3,7 @@
 Solution for a challenge from [Devchallenges.io](http://devchallenges.io)
 
 - [Demo](https://ap-devchallenges-404-not-found.netlify.app/)
-- [Solution]()
+- [Solution](https://devchallenges.io/solutions/18ZBDOYtI2pSBYYX3pWx)
 - [Challenge](https://devchallenges.io/challenges/wBunSb7FPrIepJZAg0sY)
 
 ## Table of Contents
