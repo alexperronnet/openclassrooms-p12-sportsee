@@ -1,8 +1,13 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import { Router } from '~/router'
 import '~/styles/main.scss'
 
 const container = document.getElementById('root') as HTMLElement
 const root = createRoot(container)
 
-root.render(<StrictMode>Entrée utilisateur</StrictMode>)
+root.render(
+  <StrictMode>
+    <Router />
+  </StrictMode>
+)
