@@ -1,0 +1,19 @@
+@use '~/styles/abstracts/variables' as var;
+
+html {
+  font-size: 16px;
+}
+
+body {
+  font-family: var.$font-sans;
+  font-size: var.$text-base;
+  font-weight: var.$font-normal;
+  line-height: var.$leading-normal;
+  color: map-get(var.$color-neutral, 700);
+  background-color: var.$color-white;
+}
+
+::selection {
+  color: var.$color-white;
+  background-color: map-get(var.$color-red, 600);
+}
