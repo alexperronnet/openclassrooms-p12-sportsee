@@ -1,2 +1,44 @@
+@use '~/styles/abstracts/variables' as var;
+
 .notFound {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4rem;
+  text-align: center;
+}
+
+.infos {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.title {
+  color: map-get(var.$color-red, 500);
+  font-size: var.$text-7xl;
+  font-weight: var.$font-bold;
+}
+
+.text {
+  font-size: var.$text-lg;
+}
+
+.link {
+  padding: 0.75rem 1.5rem;
+  color: var.$color-white;
+  background-color: map-get(var.$color-red, 500);
+  border-radius: var.$rounded-sm;
+  font-size: var.$text-sm;
+  transition: background-color var.$transition;
+
+  &:hover {
+    background-color: map-get(var.$color-red, 600);
+  }
+
+  &:focus-visible {
+    outline: 0.125rem solid map-get(var.$color-red, 500);
+    outline-offset: 0.25rem;
+  }
 }

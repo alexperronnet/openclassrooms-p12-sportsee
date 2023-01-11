@@ -11,8 +11,8 @@ const titles = {
 }
 
 const messages = {
-  '404': '😿 La page que vous recherchez n’existe pas ou a été déplacée...',
-  na: '😿 Cette page n’est pas encore disponible...'
+  '404': 'La page que vous recherchez n’existe pas ou a été déplacée...',
+  na: 'Cette page n’est pas encore disponible...'
 }
 
 export const AppError: React.FC<AppErrorProps> = ({ status }) => (
