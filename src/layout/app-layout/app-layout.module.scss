@@ -1,5 +1,11 @@
-.appHeader {
+.appLayout {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 6rem 1fr;
+  grid-template-rows: 6rem 1fr;
 }
 
 .main {
+  grid-area: 2 / 2 / 3 / 3;
+  padding: 4rem;
 }
