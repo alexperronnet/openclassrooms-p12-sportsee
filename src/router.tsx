@@ -16,9 +16,9 @@ export const Router: React.FC = () => (
       <Route path="app" element={<AppLayout />}>
         <Route index element={<AppDashboard />} />
         {naRoutes.map(route => (
-          <Route key={route} path={route} element={<AppError />} />
+          <Route key={route} path={route} element={<AppError status="na" />} />
         ))}
-        <Route path="*" element={<AppError />} />
+        <Route path="*" element={<AppError status="404" />} />
       </Route>
     </Routes>
   </BrowserRouter>
